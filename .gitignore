@@ -1,4 +1,4 @@
 build
 .env
 /src/generated/prisma
-node modules
+node_modules/
