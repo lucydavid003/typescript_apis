@@ -1,7 +1,7 @@
 import {Router} from 'express';
 import { createTask, deleteTask, findbyId, getAllTasks, updateTask } from '../controllers/tasks.controller';
 const router = Router ()
-import { validateTasks } from '../middlewares/Validatetasks';
+import { validateTasks } from '../middlewares/ValidateTasks';
 
 router.get ("/", getAllTasks)
 router.get ("/:id",findbyId)
